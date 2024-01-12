@@ -1,6 +1,7 @@
 package org.launchcode;
 
 public interface OpticalDisc {
+<<<<<<< HEAD
    public static void spinDisc(){
         System.out.println("Disc is spinning");
     };
@@ -15,4 +16,8 @@ public interface OpticalDisc {
         System.out.println("Disk has stopped spinning");
 
     };
+=======
+    void spinDisc();
+    void readData();
+>>>>>>> debugging
 }
